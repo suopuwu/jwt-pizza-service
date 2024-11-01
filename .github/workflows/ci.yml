@@ -6,9 +6,6 @@ on:
             - main
     workflow_dispatch:
 jobs:
-    test:
-        name: dummy
-        runs-on: ubuntu-latest
     build:
         name: Build
         runs-on: ubuntu-latest
